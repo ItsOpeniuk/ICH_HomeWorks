@@ -1,0 +1,7 @@
+num1, num2 = int(input('Enter first numbers: ')), int(input('Enter second numbers:'))
+print(f'Сумма = {num1 + num2}')
+print(f'Разность = {num1 - num2}')
+print(f'Произведение = {num1 * num2}')
+print(f'Частное = {num1 / num2}')
+print(f'Остаток от деления = {num1 % num2}')
+print(f'Первое число в степени второго числа = {num1 ** num2}')
