@@ -1,10 +1,12 @@
 def get_value_from_dict(dictionary: dict, key, method):
+    my_dict = dictionary
+    my_key = key
     if method == "get":
-        return f'Значение для ключа {key} = {dictionary.get(key, f'Key {key} not found')}'
+        return f'Значение для ключа {my_key} - {my_dict.get(my_key, f'Не найдено')}'
     elif method == "set":
-        return f'Значение для ключа {key} = {dictionary.setdefault(key, f'Key {key} not found but we invite his in your dictionary')}'
+        return f'Значение для ключа {my_key} - {my_dict.setdefault(my_key, f' не найдено но мы добавили его в словарь')}'
     else:
-        return input('You entered incorrect method')
+        return get_value_from_dict(my_dict, my_key, method=input('Метод должен быть "get" или "set"'))
 
 
 my_dict = {'apple': 5, 'banana': 6, 'cherry': 7}
