@@ -1,0 +1,4 @@
+apple 1.11 20
+bananas 1.5 12
+mango 2.4 6
+chery 1.66 20
