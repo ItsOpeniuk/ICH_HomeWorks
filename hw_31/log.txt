@@ -4,3 +4,6 @@ Arguments: (45, 12), result: 540
 Arguments: (12, 22), result: 34
 Arguments: (12, 24), result: 36
 Arguments: (45, 12), result: 540
+Arguments: (12, 22), result: 34
+Arguments: (12, 24), result: 36
+Arguments: (45, 12), result: 540
