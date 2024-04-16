@@ -11,7 +11,6 @@ class WordsCounter:
     def __init__(self, url_list):
 
         self.url_list = url_list
-        self.word_list = []
 
     def count_words(self):
         result = {}
